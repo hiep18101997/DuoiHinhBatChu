@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_game_play"
+    android:orientation="vertical">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:gravity="bottom">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp">
+
+            <ImageView
+                android:layout_width="46dp"
+                android:layout_height="46dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="3dp"
+                android:src="@drawable/ic_avatar" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:src="@drawable/bg_avatar" />
+
+            <TextView
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:layout_marginLeft="98dp"
+                android:layout_marginTop="3dp"
+                android:background="@drawable/ic_heart"
+                android:gravity="center"
+                android:text="5"
+                android:textColor="@android:color/white"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1203"
+            android:paddingLeft="50dp"
+            android:gravity="center_vertical"
+            android:textSize="18sp"
+            android:textColor="@android:color/white"
+            android:layout_marginBottom="3dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/bg_coin" />
+    </TableRow>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <ImageView
+            android:layout_width="310dp"
+            android:layout_height="210dp"
+            android:layout_gravity="center"
+            android:src="@drawable/baocao" />
+
+         <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="255dp"
+            android:layout_gravity="center"
+            android:src="@drawable/bg_picture_border" />
+
+    </FrameLayout>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_marginTop="100dp"
+        android:gravity="center_horizontal"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="42dp"
+            android:layout_height="55dp"
+            android:background="@drawable/ic_tile_hover" />
+
+        <Button
+            android:layout_width="42dp"
+            android:layout_height="55dp"
+            android:background="@drawable/ic_tile_hover" />
+
+        <Button
+            android:layout_width="42dp"
+            android:layout_height="55dp"
+            android:background="@drawable/ic_tile_hover" />
+
+        <Button
+            android:layout_width="42dp"
+            android:layout_height="55dp"
+            android:background="@drawable/ic_tile_hover" />
+
+        <Button
+            android:layout_width="42dp"
+            android:layout_height="55dp"
+            android:background="@drawable/ic_tile_hover" />
+
+        <Button
+            android:layout_width="42dp"
+            android:layout_height="55dp"
+            android:background="@drawable/ic_tile_hover" />
+
+        <Button
+            android:layout_width="42dp"
+            android:layout_height="55dp"
+            android:background="@drawable/ic_tile_hover" />
+
+        <Button
+            android:layout_width="42dp"
+            android:layout_height="55dp"
+            android:background="@drawable/ic_tile_hover" />
+
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:gravity="center_horizontal"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="42dp"
+            android:layout_height="55dp"
+            android:background="@drawable/ic_tile_hover" />
+
+        <Button
+            android:layout_width="42dp"
+            android:layout_height="55dp"
+            android:background="@drawable/ic_tile_hover" />
+
+        <Button
+            android:layout_width="42dp"
+            android:layout_height="55dp"
+            android:background="@drawable/ic_tile_hover" />
+
+        <Button
+            android:layout_width="42dp"
+            android:layout_height="55dp"
+            android:background="@drawable/ic_tile_hover" />
+
+        <Button
+            android:layout_width="42dp"
+            android:layout_height="55dp"
+            android:background="@drawable/ic_tile_hover" />
+
+        <Button
+            android:layout_width="42dp"
+            android:layout_height="55dp"
+            android:background="@drawable/ic_tile_hover" />
+
+        <Button
+            android:layout_width="42dp"
+            android:layout_height="55dp"
+            android:background="@drawable/ic_tile_hover" />
+
+        <Button
+            android:layout_width="42dp"
+            android:layout_height="55dp"
+            android:background="@drawable/ic_tile_hover" />
+
+
+    </TableRow>
+</LinearLayout>
